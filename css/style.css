@@ -1,0 +1,63 @@
+body{
+    background-color: var(--Light-gray);
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+  }
+
+ 
+  .section{
+    background-color: var(--white);
+    width: 322px;
+    height: 500px;
+    margin-top: 84px;
+    margin-left: 29px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.062), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+  }
+
+  .tarjeta{
+    color: var(--dark-blue);
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .tarjeta img{
+    width: 288px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .tarjeta h3{
+    margin-left: 38px;
+    width: 250px;
+    text-align: center;
+  }
+
+  .tarjeta p{
+    color: var(--grayish-blue);
+    margin-left: 38px;
+    width: 250px;
+    text-align: center;
+  }
+
+  .attribution{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  @media screen and (min-width: 480px){
+
+        .section{margin-top: 84px;
+            margin-left: 555px;
+        }
+    
+  }
+ 
